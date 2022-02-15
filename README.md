@@ -11,13 +11,24 @@
 * To run our mapper.py file, In git bash use cat(concatenate) command for our cat_text file.
    **cat ../cats_txt.txt|./mapper.py|sort**
 
-![initisl.png](initisl.png)
+![mapper_example.png](mapper_example.png)
+
+* In the above screen short we can see what my mapper does. It separated words from the sentences and printed it.
+
 #### Reducer.py (taking the words from mapper and count it)
 * Separated words and counts.
 * created a dataframe using words and counts so that it will be easy for me to sort based on frequency of words with its unique values.
 * My git bash command
   **cat ../cats_txt.txt|./mapper.py|sort|./reducer.py**
   
- ![bash.png](bash.png)
+ ![reducer_example.png](reducer_example.png)
+ 
+ * I uploaded an example for how reducer worked. In mapper screenshot we saw "more" word how many times it appeared. But reducer printed that word one time and number of frequencies. 
+ 
  ![before_sorting.png](before_sorting.png)
+ 
+ * I have sorted using count. But if you see my above image it prints , for 461 times. It is printing the word with its number of items occurance. I used groupby and aggregated(max value) from the dataframe. 
+ * Now I can see my punctuations and words sorted based on it frequency
+
+
  ![after_groupby_max.png](after_groupby_max.png)
