@@ -16,6 +16,7 @@
 * In the above screen short we can see what my mapper does. It separated words from the sentences and printed it.
 
 #### Reducer.py (taking the words from mapper and count it)
+* Pipe command taking the output from mapper py file and giving it as an input to reducer file.
 * Separated words and counts.
 * created a dataframe using words and counts so that it will be easy for me to sort based on frequency of words with its unique values.
 * My git bash command
