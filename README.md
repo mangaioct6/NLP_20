@@ -11,6 +11,13 @@
 * To run our mapper.py file, In git bash use cat(concatenate) command for our cat_text file.
    **cat ../cats_txt.txt|./mapper.py|sort**
 
-![]()
+![initisl.png](initisl.png)
 #### Reducer.py (taking the words from mapper and count it)
 * Separated words and counts.
+* created a dataframe using words and counts so that it will be easy for me to sort based on frequency of words with its unique values.
+* My git bash command
+  **cat ../cats_txt.txt|./mapper.py|sort|./reducer.py**
+  
+ ![bash.png](bash.png)
+ ![before_sorting.png](before_sorting.png)
+ ![after_groupby_max.png](after_groupby_max.png)
