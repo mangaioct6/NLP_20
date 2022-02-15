@@ -5,7 +5,7 @@
 
 * Used shebang line **#!/usr/bin/env python** which is path to the Bash interpreter. This ensures that bash will be used to interpret the script, even if its executed under different shell.
 
-#### Mapper.py (we are going to break the sentences into tokens or units)
+#### Mapper.py (we are going to break the sentences into tokens or chunks)
 * Using standard input, getting input from the Bash command. Iterating our input inside loop to remove white spaces. Using **regex** separated punctuations from the word and **lowered all words** in list comprehension.
 
 * To run our mapper.py file, In git bash use cat(concatenate) command for our cat_text file.
@@ -33,3 +33,7 @@
 
 
  ![after_groupby_max.png](after_groupby_max.png)
+
+Why mapreduce useful?
+* Mapping involves sorting and filtering. MapReduce is suitable for iterative computation involving large quantities of data requiring parallel processing.
+* MapReduce can work with minimal amount of memory and give results very fast.
