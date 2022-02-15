@@ -5,6 +5,12 @@
 
 * Used shebang line **#!/usr/bin/env python** which is path to the Bash interpreter. This ensures that bash will be used to interpret the script, even if its executed under different shell.
 
-#### Mapper.py
+#### Mapper.py (we are going to break the sentences into tokens or units)
 * Using standard input, getting input from the Bash command. Iterating our input inside loop to remove white spaces. Using **regex** separated punctuations from the word and **lowered all words** in list comprehension.
 * Printed words and punctuations
+* To run our mapper.py file, In git bash use cat(concatenate) command for our cat_text file.
+   **cat ../cats_txt.txt|./mapper.py|sort**
+
+![]()
+#### Reducer.py (taking the words from mapper and count it)
+* Separated words and counts.
