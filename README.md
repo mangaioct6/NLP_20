@@ -1,3 +1,4 @@
+## !. For first question, answer is in map reduce file
 ## 2. Steps I have used to create and run map-reducer py files 
 * In VS I have opened NLP_20 folder. Under that folder created a new folder called map_reduce. Opened a mapper.py file inside map_reduce.
 
